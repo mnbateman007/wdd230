@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 a{
     color:#0D98BA;
 }
 h1,h2,h3,h4,h5,h6{
    color: white;
+   font-family: "Libre Baskerville",'Times New Roman', serif serif;
+   font-weight: 700;
    text-align: center;
 }
 header,footer{
