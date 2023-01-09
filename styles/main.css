@@ -23,10 +23,13 @@ div{
     text-align: center;
     color: white;
 }
-.flex-container{
+.container1{
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
-#mbphoto{
-    padding-right: 10px;
+.box1{
+    flex: 1;
+}
+.box2{
+    flex: 1;
 }
