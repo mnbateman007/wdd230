@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    background-color:#EAEBED;
+    padding:15px;
+}
+a{
+    color:#006989;
+    align-content: center;
+    font-family: "Libre Baskerville", Times, serif;
+    font-size:medium;
+}
+
+h1,h2,h3,h4,h5,h6{
+   color:#EAEBED;
+   background-color: #01A7C2;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding: 20px;
+    border-width: 100px;
+   font-family: "Libre Baskerville", Times, serif;
+   font-weight: 700;
+   text-align: center;
+}
+
+p{
+    font-family: "Libre Baskerville", Times, serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+img{
+    width: 32vw;
+    align-content: center;
+}
+.container1{
+    display: flex;
+    align-content: center;
+    width:min-content;
+}
+.box1{
+    flex: 1;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.box2{
+    flex: 1;
+    padding:10px;
+    background-color: lightblue;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.box3{
+    flex:1;
+    background-color: lightblue;
+    padding:10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
