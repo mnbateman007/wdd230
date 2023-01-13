@@ -73,9 +73,3 @@ img{
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
 }
-
-@media (min-width: 400px) {
-    .flex-container {
-      flex-direction:column;
-    }
-  }
