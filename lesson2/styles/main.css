@@ -40,7 +40,9 @@ img{
     display: flex;
     align-content: center;
     width:min-content;
+    flex-direction: row;
 }
+
 .box1{
     flex: 1;
     background-color: lightblue;
@@ -71,3 +73,9 @@ img{
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
 }
+
+@media (min-width: 400px) {
+    .flex-container {
+      flex-direction:column;
+    }
+  }
