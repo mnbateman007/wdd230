@@ -20,12 +20,12 @@ header,footer{
     border-width: 100px;
 }
 #toc{
-    text-align: center;
+    align-content: center;
     list-style: none;
 }
 div{
     text-align: center;
-    color: white;
+    color: black;
 }
 .container1{
     display: flex;
