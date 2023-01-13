@@ -37,3 +37,8 @@ div{
 .box2{
     flex: 1;
 }
+
+div.content{
+    max-width: 700px;
+    margin:auto;
+}
