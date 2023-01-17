@@ -12,18 +12,14 @@ a{
 }
 
 h1,h2,h3,h4,h5,h6{
-   color:#EAEBED;
-   background-color: #01A7C2;
+    color:#EAEBED;
+    background-color: #01A7C2;
     border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
     padding: 20px;
     border-width: 100px;
-   font-family: "Libre Baskerville", Times, serif;
-   font-weight: 700;
-   text-align: center;
+    font-family: "Libre Baskerville", Times, serif;
+    font-weight: 700;
+    text-align: center;
 }
 
 p{
@@ -33,43 +29,24 @@ p{
 }
 
 img{
-    width: 32vw;
-    align-content: center;
+    width: 200px;
+    /* align-content: center; */
 }
 .container1{
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
-    width:min-content;
-    flex-direction: row;
+    background-color: black;
+    /* width:min-content; */
+    /* flex-direction: column; */
 }
 
-.box1{
-    flex: 1;
-    background-color: lightblue;
-    padding: 10px;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+.box1, .box2, .box3 {
+    width: 600px;
+    flex-grow: 1;
+    /* background-color:; */
 }
-.box2{
-    flex: 1;
-    padding:10px;
-    background-color: lightblue;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-}
-.box3{
-    flex:1;
-    background-color: lightblue;
-    padding:10px;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+
+@media screen and (min-width: 600px) {
+    
 }
