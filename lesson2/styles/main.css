@@ -42,7 +42,7 @@ img{
 }
 
 .box1, .box2, .box3 {
-    width: 600px;
+    width: 300px;
     flex-grow: 1;
     /* background-color:; */
 }
