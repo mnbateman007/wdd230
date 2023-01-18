@@ -26,10 +26,13 @@ p{
     font-family: "Libre Baskerville", Times, serif;
     font-weight: 400;
     text-align: center;
+    padding:15px;
+    border-style: dotted;
+    border-width: 4px;
 }
 
 img{
-    width: 200px;
+    width: 300px;
     align-content: center;
 }
 .container1{
@@ -38,19 +41,19 @@ img{
     align-content: center;
     background-color: lightblue;
     border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
 }
 
 .box1, .box2, .box3 {
     width: 300px;
     flex-grow: 1;
     padding:15px;
-    /* background-color:; */
 }
 
-#etsylink{
-    align-items: t;
+#etsylink, #peplink, #goodlink{
+    justify-content: flex-start;
+}
+
+#verygood, #etsy, #drpepper{
+    border-style: dotted;
+    border-width: 4px;
 }
