@@ -12,6 +12,7 @@ a{
     font-size:medium;
     padding:5px;
     border-radius:5px;
+    just
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -41,6 +42,7 @@ img{
     border-style: dotted;
     border-width: 4px;
     border-radius: 15px;
+    justify-content: center;
 }
 .container1{
     display: flex;
@@ -48,11 +50,7 @@ img{
     align-content: center;
     background-color: rgb(173, 224, 230);
     border-radius: 15px;
-    justify-content:right;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+
 }
 
 .box1, .box2, .box3 {
