@@ -30,23 +30,27 @@ p{
 
 img{
     width: 200px;
-    /* align-content: center; */
+    align-content: center;
 }
 .container1{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    background-color: black;
-    /* width:min-content; */
-    /* flex-direction: column; */
+    background-color: lightblue;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 .box1, .box2, .box3 {
     width: 300px;
     flex-grow: 1;
+    padding:15px;
     /* background-color:; */
 }
 
-@media screen and (min-width: 600px) {
-    
+#etsylink{
+    align-items: t;
 }
