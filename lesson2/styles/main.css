@@ -12,7 +12,6 @@ a{
     font-size:medium;
     padding:5px;
     border-radius:5px;
-    just
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -38,7 +37,6 @@ p{
 
 img{
     width: 300px;
-    align-content: right;
     border-style: dotted;
     border-width: 4px;
     border-radius: 15px;
@@ -47,7 +45,7 @@ img{
 .container1{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: baseline;
     background-color: rgb(173, 224, 230);
     border-radius: 15px;
 }
