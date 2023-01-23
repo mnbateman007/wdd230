@@ -2,20 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;500&display=swap');
 
 
-li:hover a{
+/* li:hover a{
     color: inheret;
+} */
+
+body{
+    background-color:#EAEBED;
+    padding:15px;
+}
+a{
+    background-color:darkcyan;
+    color:rgb(197, 212, 225);
+    align-content: center;
+    font-family: "Libre Baskerville", Times, serif;
+    font-size:medium;
+    padding:5px;
+    border-radius:5px;
+}
+
+li{
+    align-content: center;
+    list-style: none;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Catamaran', sans-serif;
     font-weight: 300;
-}
+    color:#EAEBED;
+    background-color: #047080;
+    border-radius: 25px;
+    padding: 20px;
+    border-width: 100px;
 
 p{
     font-family: 'Catamaran', sans-serif;
     font-weight: 100;
 }
 
+#workingmom{
+    max-width: 30%;  
+    height: auto;  
+}
 
 .container1{
     display: flex;
@@ -26,12 +53,16 @@ p{
 }
 
 .box1, .box2, .box3 {
-    width: 300px;
     flex-grow: 1;
     padding:15px;
 }
 
 #logo{
-    max-width: 50%;  
+    max-width: 10%;  
     height: auto;  
+}
+
+#colors{
+    max-width: 1d0%;  
+    height: auto; 
 }

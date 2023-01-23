@@ -15,8 +15,8 @@ a{
 }
 
 h1,h2,h3,h4,h5,h6{
-    color:#EAEBED;
-    background-color: #047080;
+    /* color:#EAEBED; */
+    color: #047080;
     border-radius: 25px;
     padding: 20px;
     border-width: 100px;
