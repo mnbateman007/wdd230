@@ -44,6 +44,7 @@ img{
 }
 .container1{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: baseline;
     background-color: rgb(173, 224, 230);
