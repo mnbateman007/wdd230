@@ -1,0 +1,39 @@
+.newstyle {
+    background-color: red;
+}
+
+/* hamburger menu/responsive menu */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+a{
+    display: none;
+    padding: 15px;
+}
+
+a:first-child{
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+    color: green;
+}
+
+.responsive a {
+    display: block;
+}
+
+@media screen and (min-width: 700px){
+    a:first-child {
+        display: none;
+    }
+    a {
+        display: block;
+    }
+    nav {
+        flex-direction: row;
+    }
+}
