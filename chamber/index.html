@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber Site Structure</title>
-    <link rel="stylesheet" href="chamber.css">
-    <link defer rel="script" href="chamber.js">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link defer rel="script" href="scripts/chamber.js">
 </head>
 <body>
     <header>
-        <div>
-            <img id=smallLogo src="img/chamberLogo.png">
+        <div class="topbar">
+            <img id="smallLogo" src="img/chamberLogo.png" href="index.html">
             <nav class="navigation">
                 <a class="ham" href="#">&#9776;</a>
-                <a href="#">Home</a>
+                <a href="index.html">Home</a>
                 <!-- <a href="#">Page 1</a>
                 <a href="#">Page 2</a>
                 <a href="#">Page 3</a>
@@ -23,27 +23,32 @@
         </div>
     </header>
     <main>
-        <div class="hero">
-            <p>Hero with site name and call to action</p>
-        </div>
-        <div class="event">
-            <p>Event</p>
-        </div>
-        <div class="weather">
-            <p>Weather</p>
-        </div>
-        <div class="release">
-            <p>New Release</p>
-        </div>
-        <div class="spotlight">
-            <p class="spot1">Spotlight 1</p>
-            <p class="spot2">Spotlight 2</p>
-            <p class="spot3">Spotlight 3</p>
+        <div class="gridContainer">
+            <div class="hero">
+                <p>Hero with site name and call to action</p>
+            </div>
+            <div class="event">
+                <p>Event</p>
+            </div>
+            <div class="weather">
+                <p>Weather</p>
+            </div>
+            <div class="release">
+                <p>New Release</p>
+            </div>
+            <div class="join">
+                <p>Join</p>
+            </div>
+            <div class="spotlight">
+                <p class="spot1">Spotlight 1</p>
+                <p class="spot2">Spotlight 2</p>
+                <p class="spot3">Spotlight 3</p>
+            </div>
         </div>
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
 </html>
