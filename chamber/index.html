@@ -5,42 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber Site Structure</title>
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/chamber.css">
     <link defer rel="script" href="scripts/chamber.js">
 </head>
 <body>
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-text"><p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+            <!-- <button type="button" class="banner-button"><img src="images/close_FILL0_wght400_GRAD0_opsz48.png" alt="Close Button"></button> -->
+        </div>
+    </div>
     <header>
         <div class="topbar">
-            <img id="smallLogo" src="img/chamberLogo.png" href="index.html">
+            <img id="smallLogo" alt="sun rising over hills logo" src="img/chamberLogo.png" href="index.html">
             <nav class="navigation">
                 <a class="ham" href="#">&#9776;</a>
                 <a href="index.html">Home</a>
-                <!-- <a href="#">Page 1</a>
-                <a href="#">Page 2</a>
-                <a href="#">Page 3</a>
-                <a href="#">Page 4</a> -->
+                <a href="#">Discovery</a>
+                <a href="#">Directory</a>
+                <a href="#">Join</a>
+                <a href="#">Contact</a>
             </nav>
         </div>
     </header>
     <main>
-        <div class="gridContainer">
-            <div class="hero">
-                <p>Hero with site name and call to action</p>
+        <div id="gridContainer">
+            <div id="hero">
+                <img id="chulaVista" src="img/3rd-ave.jpeg" alt="Chula Vista 3rd Ave Sign">
+                <h2 id="welcome">Welcome</h2>
+                <p>Hero</p>
             </div>
-            <div class="events">
+            <div id="events">
                 <p>Event</p>
             </div>
-            <div class="weather">
+            <div id="weather">
                 <p>Weather</p>
             </div>
-            <div class="news">
+            <div id="news">
                 <p>News Release</p>
             </div>
-            <div class="join">
+            <div id="join">
                 <p>Join</p>
             </div>
-            <div class="spotlight">
-                <p class="spot1">Spotlight 1</p>
+            <div id="spotlight">
+                <p id="spot1">Spotlight 1</p>
                 <p class="spot2">Spotlight 2</p>
                 <p class="spot3">Spotlight 3</p>
             </div>
@@ -53,3 +62,6 @@
     </footer>
 </body>
 </html>
+
+<!-- use class to get all elements the same
+use ID in the  -->
