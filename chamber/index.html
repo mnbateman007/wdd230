@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for Chula Vista Chamber of Commerce">
+    <meta name="author" content="Megan Bateman">
     <title>Chamber Site Structure</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/chamber.css">
@@ -17,8 +19,9 @@
         </div>
     </div>
     <header>
-        <div class="topbar">
+        <nav>
             <img id="smallLogo" alt="sun rising over hills logo" src="img/chamberLogo.png" href="index.html">
+            <div class="topbar"></div>
             <nav class="navigation">
                 <a class="ham" href="#">&#9776;</a>
                 <a href="index.html">Home</a>
@@ -28,10 +31,12 @@
                 <a href="#">Contact</a>
             </nav>
         </div>
+        </nav>
     </header>
     <main>
         <div id="gridContainer">
             <div id="hero">
+                <source srcset="img/600px3rd-avecopy.png" media="(min-width: 600px)">
                 <img id="chulaVista" src="img/3rd-ave.jpeg" alt="Chula Vista 3rd Ave Sign">
                 <h2 id="welcome">Welcome</h2>
                 <p>Hero</p>
@@ -39,8 +44,16 @@
             <div id="events">
                 <p>Event</p>
             </div>
-            <div id="weather">
-                <p>Weather</p>
+            <div parts="parts" id="weather">
+                <h3>Weather</h3>
+                <div id="w-box" 
+                    <img class="icon" src="#" alt="rain">
+                    <h3 class="temp"><span class='t'>33</span>&#176;F</h3>>
+                </div>
+                    <p class="desc">Partly Cloudy</p>
+                    <hr>
+                    <p>Wind Speed: <span  class="ws">12.5</span></p>
+                    <p>Wind Chill: <span  class="wc">N/A</span></p>
             </div>
             <div id="news">
                 <p>News Release</p>
@@ -57,8 +70,13 @@
     </main>
 
     <footer>
-        <h3></h3>
-        <h4></h4>
+        <img id="small_logo2" src="images/" alt="logo" />
+      <h1>Idaho Falls Chamber of Commerce</h1>
+      <h2 id="copy">.</h2>
+      <p>Megan Bateman | WDD230</p>
+      <p>(619)-867-5309</p>
+      <a href="https://goo.gl/maps/4rxtosVJaD9nLPLa9">Location</a>
+      <div id="year"></div>
     </footer>
 </body>
 </html>
