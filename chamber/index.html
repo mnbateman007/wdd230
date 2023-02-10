@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Home page for Chula Vista Chamber of Commerce">
     <meta name="author" content="Megan Bateman">
-    <title>Chamber Site Structure</title>
+    <title>Chula Vista Chamber|Home</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/chamber.css">
     <link defer rel="script" href="scripts/chamber.js">
@@ -21,62 +21,83 @@
     <header>
         <nav>
             <img id="smallLogo" alt="sun rising over hills logo" src="img/chamberLogo.png" href="index.html">
-            <div class="topbar"></div>
-            <nav class="navigation">
-                <a class="ham" href="#">&#9776;</a>
-                <a href="index.html">Home</a>
-                <a href="#">Discovery</a>
-                <a href="#">Directory</a>
-                <a href="#">Join</a>
-                <a href="#">Contact</a>
-            </nav>
-        </div>
+            <div>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <!-- <a href="https://www.facebook.com/"><img id="fblogo" src=img/fblogo.png></a>
+            <a href="https://www.instagram.com/"><img id="instalogo" src=img/gramlogo.png></a> -->
+            <ul id="mainview">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Discovery</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="date"></div>
+            </div>
         </nav>
     </header>
     <main>
         <div id="gridContainer">
-            <div id="hero">
+            <section id="hero">
                 <source srcset="img/600px3rd-avecopy.png" media="(min-width: 600px)">
                 <img id="chulaVista" src="img/3rd-ave.jpeg" alt="Chula Vista 3rd Ave Sign">
-                <h2 id="welcome">Welcome</h2>
-                <p>Hero</p>
-            </div>
-            <div id="events">
-                <p>Event</p>
-            </div>
-            <div parts="parts" id="weather">
-                <h3>Weather</h3>
+                <h2 id="welcome">Welcome to Chula Vista</h2>
+                <h3>Join Us</h3>
+            </section>
+            <section id="events">
+                <h2>Chula Vista Community Fun Run</h2>
+                <h3>May 6</h3>
+                <p>Come run the Chula Vista Community Fun Run race in Chula Vista this May</p>
+            </section>
+            <section parts="parts" id="weather">
+                <h2>Weather</h2>
+                <img id="weatherimg" src="img/weathericon.png" alt="sun with cloud">
                 <div id="w-box" 
                     <img class="icon" src="#" alt="rain">
-                    <h3 class="temp"><span class='t'>33</span>&#176;F</h3>>
-                </div>
                     <p class="desc">Partly Cloudy</p>
+                    <h3 class="temp"><span class='t'>33</span>&#176;F</h3>
                     <hr>
                     <p>Wind Speed: <span  class="ws">12.5</span></p>
                     <p>Wind Chill: <span  class="wc">N/A</span></p>
-            </div>
-            <div id="news">
-                <p>News Release</p>
-            </div>
-            <div id="join">
-                <p>Join</p>
-            </div>
-            <div id="spotlight">
-                <p id="spot1">Spotlight 1</p>
-                <p class="spot2">Spotlight 2</p>
-                <p class="spot3">Spotlight 3</p>
-            </div>
+                </div>
+            </section>
+            <section id="news">
+                <h2>News Release</h2>
+                <p id="newsrelease"> The groundbreaking for a long-awaited, billion-dollar resort hotel and convention center on Chula Vista’s bayfront is finally within sight after the approval of the development’s financing plan.Port of San Diego commissioners and Chula Vista council members both unanimously voted last week to support an updated financial structure that lays out how the project will get funded and how much revenue it will generate. <a href="https://www.youtube.com/watch?v=8-9ht9E_5aQ">Most recent updates</a></p>
+            </section>
+            <section id="join">
+                <h2>Join Us!</h2>
+                <p>Discover how to join the chamber of commerce and how it will benefit you, your families, and your organizations!</p>
+            </section>
+            <section id="spot1">
+                <h3 >Third Ave Village Market</h3>
+                <img id="farm" src="img/farmerIcon.png" alt="farmers market stand">
+                <p>Sundays 10am-2pm</p>
+                <p>Address: 300 Park Way, Chula Vista, CA 91910</p>
+            </section>
+            <section class="spot2">
+                <h3>Trash and Recycling</h3>
+                <img id="trash" src="img/republicServices.png">
+                <p>For all your trash and recycling needs</p>
+                <p>Phone: (619) 421-9400</p>
+                <p>Address: 881 Energy Way, Chula Vista, CA 91911</p>
+            </section>
+            <section class="spot3">
+                <h3>Vex Robotics</h3>
+                <img id="vex" src="img/vexLogo.jpeg">
+                <p>Join Vex today!</p>
+                <p>VEX Robotics is educational robotics for everyone. VEX solutions span all levels of both formal and informal education with accessible, scalable, and affordable solutions. Beyond science and engineering principles, VEX encourages creativity, teamwork, leadership, and problem solving among groups. It allows educators of all types to engage and inspire the STEM problem solvers of tomorrow! </p>
+            </section>
         </div>
     </main>
 
     <footer>
-        <img id="small_logo2" src="images/" alt="logo" />
-      <h1>Idaho Falls Chamber of Commerce</h1>
-      <h2 id="copy">.</h2>
-      <p>Megan Bateman | WDD230</p>
-      <p>(619)-867-5309</p>
-      <a href="https://goo.gl/maps/4rxtosVJaD9nLPLa9">Location</a>
-      <div id="year"></div>
+        <img id="small_logo2" src="img/chamberLogo.png" alt="logo" />
+        <h2 id="copy">.</h2>
+        <p>Megan Bateman | WDD230</p>
+        <p>(619)-867-5309</p>
+        <a href="https://goo.gl/maps/4rxtosVJaD9nLPLa9">Location</a>
+        <div id="year"></div>
     </footer>
 </body>
 </html>

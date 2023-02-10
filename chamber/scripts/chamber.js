@@ -4,18 +4,27 @@
 // hambutton.addEventListener('click', () => {
 //     mainnav.classList.toggle('responsive');
 // })
+function toggleMenu() {
+    document.querySelector("#mainview").classList.toggle("open");
+    document.querySelector("#hamburgerBtn").classList.toggle("open");
+}
+const x = document.querySelector("#hamburgerBtn")
+x.onclick = toggleMenu;
 
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
+// const hambutton = document.querySelector('.ham');
+// const mainnav = document.querySelector('.navigation')
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+// hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
 let date = new Date();
+let day = date.getDay();
 let year = date.getFullYear();
-document.querySelector('h3').innerHTML = "&copy" + year + " | Megan Bateman | Idaho";
+
+document.querySelector('#copy').innerHTML = "&copy" + year + " | Megan Bateman | Idaho";
 
 let currentdate = document.lastModified;
-document.querySelector('h4').textContent = `Last Updated: ${currentdate}`;
+
+document.querySelector('year').textContent = `Last Updated: ${currentdate}`;
 
 
 // let date = new Date;
