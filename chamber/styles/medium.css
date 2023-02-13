@@ -1,20 +1,60 @@
 @media only screen and (min-width: 1000px) {
     /* Layout of the page */
 
-    .gridContainer{
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 5px;
+    }
+    
+    button{
+        display: none;
+    }
+    
+    li{
+        margin-left: 5vw; 
+    }
+    
+    #fblogo #gramlogo{
+        float: right;
+        padding: 5px;
+    }
+    
+    .date{
+        justify-content: center;
+    }
+    
+    main{
+        diplay: grid;
         grid-template-columns: 2fr 1fr;
     }
+    
     #hero{
         grid-column: 1/3;
         grid-row: 1/2;
-        padding: 0;
-        position: relative;
+        margin: 5px;
     }
 
-    #chulaVista{
+    /*#chulaVista{
         width: 100%;
+    }*/
+    
+    #small{
+        display: none;
     }
-
+    
+    #medium{
+        display: grid;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    #large{
+        display: none;
+    }
+    
     #welcome{
         position: absolute;
         top: 50px;
@@ -22,29 +62,56 @@
     }
 
     #news{
+        border: solid black 1px;
         grid-column: 1/3;
         grid-row:2/3;
+        margin: 5px;
     }
 
     #events{
+        border: solid black 1px;
         grid-column: 1/2;
         grid-row:4/5;
+        margin: 5px;
     }
 
     #weather{
+        border: solid black 1px;
         grid-column: 2/3;
         grid-row:4/5;
+        margin: 5px;
     }
 
-    #spotlight{
-        grid-column: 1/3;
+    #spot1{
+        border: solid black 1px;
+        grid-column: 1/2;
         grid-row: 3/4;
+        margin: 5px;
+    }
+    
+    #spot2{
+        border: solid black 1px;
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: 5px;
     }
 
     #join{
+        display: grid;
+        border: solid black 1px;
         grid-column: 1/3;
         grid-row: 5/6;
+        margin; 5px;
+        text-align: center;
     }
+    
+    #join h1{
+        background-color: darkblue;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px lightblue;
+    }
+    
 
     /* testing background size */
     body {
