@@ -100,6 +100,66 @@ main{
     grid-template-columns: 1fr;
     font-family: 'Libre Baskerville', sans-serif;
 }
+
+#hero{
+    position:relative;
+    margin: 2px;
+}
+#HEROPIC - SMALL{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#HEROPIC - MEDIUM{
+    diplay:none;
+}
+#HEROPIC - LARGE{
+    display:none;
+}
+
+#joinus{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    background: darkblue;
+    text-align: center;
+    padding: 5px;
+}
+
+#events{
+    border: solid black 1px;
+    margin: 5px;
+    text-align: center;
+}
+
+#weather{
+    border: solid black 1px;
+    margin: 5px; 
+    text-align: center; 
+}
+
+#join{
+    display: none;
+}
+
+#spot1{
+    border: solid black 1px;
+    margin: 5px;
+    text-align: center;
+}
+
+#spot2{
+    border: solid black 1px;
+    margin: 5px;
+    text-align: center;
+}
+
+#spot3{
+    display: none;
+}
+
+#
+
 /* #gridContainer{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
