@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
-img{
+#chulaVista, #smallLogo, #weatherimg, #farm, #trash, #vex, #small_logo2 {
     width:10em;
     height:auto;
 }
 
-.topbar{
+body {
+    background-color: lightblue;
+  }
+
+nav{
     display: flex;
-    justify-content: space-between;
-    align-
+    flex-direction: column;
+    /* justify-content: space-between; */
 
 }
 
@@ -41,7 +45,8 @@ nav{
     display:none;
 } */
 
-a{
+
+#mainview{
     display: none;
     padding: 15px;
 }
@@ -66,7 +71,7 @@ p{
 }
 
 
-@media only screen and (min-width: 1000px) {
+/* @media only screen and (min-width: 1000px) {
     /* Layout of the page */
 
     .gridContainer{
@@ -123,9 +128,9 @@ p{
         display: none;
     }
     
-  }
+  } */ */
 
-@media only screen and (min-width: 1600px) {
+/* @media only screen and (min-width: 1600px) {
     .gridContainer{
         grid-template-columns: 1fr 2fr 1fr;
     }
@@ -172,4 +177,4 @@ p{
     .spot3 {
         display: show;
     }
-  }
+  } */
