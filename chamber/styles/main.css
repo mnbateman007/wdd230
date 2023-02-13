@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
-#chulaVista, #smallLogo, #weatherimg, #farm, #trash, #vex, #small_logo2 {
+#smallLogo, #weatherimg, #farm, #trash, #vex, #small_logo2 {
     width:10em;
     height:auto;
 }
 
 body {
     height: 100%;
-    background-color: lightblue;
+    background-color: #d2d0c9;
   }
 
 nav{
-    background-color:blue;
-    box-shadow: 5px 5px 10px lightcoral;
+    background-color: #016fb9;
+    box-shadow: 5px 5px 10px #22aed1;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -25,7 +25,7 @@ nav{
 button{
     background-color: transparent;
     border:none;
-    color: darkblue;
+    color: #22aed1;
     float: right;
     font-size: 20px;
     margin: 10px;
@@ -39,7 +39,7 @@ nav ul{
     /* position: absolute */
 }
 
-nal ul li a{
+nav ul li a{
     display:block;
 }
 
@@ -55,9 +55,9 @@ a{
 }
 
 a:hover{
-    background-color: blueviolet;
+    background-color: #22aed1;
     border-radius:5px;
-    box-shadow: 5px 5px 10px yellow;
+    box-shadow: 5px 5px 10px #1fa0c1;
 }
 
 #fblogo #gramlogo{
@@ -65,7 +65,7 @@ a:hover{
 }
 
 nav h1{
-    color:darkblue;
+    color:white;
     padding: 5px;
 }
 
@@ -77,9 +77,9 @@ nav h1{
 }
 
 footer{
-    background-color:darkblue;
+    background-color:#6D8EA0;
     border-radius:5px;
-    box-shadow: 5px 5px 10px yellow;
+    box-shadow: 5px 5px 10px #688697;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -92,7 +92,7 @@ footer a{
 
 footer h1{
     font-size: small;
-    color: black;
+    color: white;
 }
 
 main{
@@ -105,23 +105,28 @@ main{
     position:relative;
     margin: 2px;
 }
-#HEROPIC - SMALL{
-    position: absolute;
+#small{
+    position: relative;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
 }
-#HEROPIC - MEDIUM{
-    diplay:none;
-}
-#HEROPIC - LARGE{
+#medium{
     display:none;
+}
+#large{
+    display:none;
+}
+
+#chulaVista{
+    display: none;
 }
 
 #joinus{
     position: absolute;
     bottom: 0;
     right: 15px;
-    background: darkblue;
+    background: #22aed1;
     text-align: center;
     padding: 5px;
 }
@@ -142,6 +147,12 @@ main{
     display: none;
 }
 
+#news{
+    border: solid black 1px;
+    margin: 5px;
+    text-align: center;
+}
+
 #spot1{
     border: solid black 1px;
     margin: 5px;
@@ -158,39 +169,21 @@ main{
     display: none;
 }
 
-#
-
-/* #gridContainer{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-auto-rows: minmax(200px, auto);
-    padding:10px;
-    border-color: black;
-    padding:1em;
-
-} */
-
-/* .gridContainer > div{
-    background:lightcyan;
-    padding: 20px;
-} */
-
-/* nav{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-} */
-
-.spot3 {
-    display: none;
+p{
+    background-color:transparent;
 }
+
+
+/* .spot3 {
+    display: none;
+} */
 
 /* .join{
     display:none;
 } */
 
 
-#mainview{
+/* #mainview{
     display: none;
     padding: 15px;
 }
@@ -218,7 +211,7 @@ p{
 /* @media only screen and (min-width: 1000px) {
     /* Layout of the page */
 
-    .gridContainer{
+    /* .gridContainer{
         grid-template-columns: 2fr 1fr;
     }
     #hero{
@@ -264,7 +257,7 @@ p{
     }
 
     /* testing background size */
-    body {
+    /* body {
         background-color: lightblue;
       }
 
@@ -272,4 +265,4 @@ p{
         display: none;
     }
     
-  } */
+  /* } */

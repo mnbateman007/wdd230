@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1400px) {
     nav ul{
         display: flex;
         flex-direction: row;
@@ -26,10 +26,10 @@
     }
     
     #large{
-        diplay: grid;
-        position: absolute;
+        display: grid;
+        /* position: absolute;
         top: 0;
-        left: 0;
+        left: 0; */
     }
 
     #events{
@@ -88,10 +88,10 @@
     #spot3{
         display: grid;
         border: solid black 1px;
-        grid-columns: 3/4;
+        grid-column: 3/4;
         grid-row: 3/4;
         margin: 5px;
-        test-align: center;
+        text-align: center;
     }
 
     /*body {

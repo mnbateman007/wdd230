@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 750px) {
     /* Layout of the page */
 
     nav ul{
@@ -26,7 +26,7 @@
     }
     
     main{
-        diplay: grid;
+        display: grid;
         grid-template-columns: 2fr 1fr;
     }
     
@@ -36,9 +36,9 @@
         margin: 5px;
     }
 
-    /*#chulaVista{
+    #chulaVista{
         width: 100%;
-    }*/
+    }
     
     #small{
         display: none;
@@ -46,9 +46,9 @@
     
     #medium{
         display: grid;
-        position: absolute;
+        /* position: absolute;
         top: 0;
-        left: 0;
+        left: 0; */
     }
     
     #large{
