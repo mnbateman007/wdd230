@@ -63,7 +63,6 @@
         color:white;
         padding: 5px;
         }
-    }
 
     #news{
         border: solid black 1px;
@@ -115,15 +114,4 @@
         border-radius: 5px;
         box-shadow: 5px 5px 10px lightblue;
     }
-    
-
-    /* testing background size */
-    body {
-        background-color: lightblue;
-      }
-
-    .spot3 {
-        display: none;
-    }
-    
-  }
+}

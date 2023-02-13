@@ -47,7 +47,7 @@
      }
     
     #join{
-        diplay: grid;
+        display: grid;
         border: solid black 1px;
         grid-column: 1/2;
         grid-row: 3/4;
@@ -92,6 +92,14 @@
         grid-row: 3/4;
         margin: 5px;
         text-align: center;
+        border-radius:10px;
+        padding: 5px;
+    }
+
+    #vex{
+        width:10em;
+        height:auto;
+        justify-content: center;
     }
 
     /*body {
