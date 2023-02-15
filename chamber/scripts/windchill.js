@@ -11,3 +11,9 @@ let windchill = document.querySelector('.wc');
 if (temp <= 50 && ws >=3) {
     windchill.textContent = chill;
 }
+
+
+// storage local and session
+
+localStorage.setItem('name', 'Megan Bateman -  Permanent');
+sessionStorage.setItem('class', 'WDD230 -  Not Permanent');
