@@ -188,13 +188,14 @@ p{
 
 /*discover page*/
 
-#dispage{
+/* #dispage{
     display:grid;
     grid-template-columns: 1fr;
-}
+} */
 
 img{
-    /* display:block; */
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 0 auto;
     padding: 5px;
 }
