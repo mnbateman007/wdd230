@@ -16,11 +16,11 @@ body {
 
 nav{
     background-color: #016fb9;
-    box-shadow: 5px 5px 10px #22aed1;
+    box-shadow: 5px 5px 20px #688697;
     border-radius:10px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content:left;
     align-items: center;
     align-content: center;
     list-style-type: none;
@@ -85,7 +85,7 @@ nav h1{
 footer{
     background-color:#6D8EA0;
     border-radius:10px;
-    box-shadow: 5px 5px 10px #688697;
+    box-shadow: 5px 5px 25px #688697;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -186,95 +186,28 @@ p{
 }
 
 
-/* .spot3 {
-    display: none;
-} */
+/*discover page*/
 
-/* .join{
-    display:none;
-} */
+#dispage{
+    display:grid;
+    grid-template-columns: 1fr;
+}
 
+img{
+    /* display:block; */
+    margin: 0 auto;
+    padding: 5px;
+}
 
-/* #mainview{
-    display: none;
+img:hover{
+    background-color: #016fb9;
+    border-radius:5px;
+}
+
+#days{
+    display: block;
     padding: 15px;
-}
-
-a:first-child{
-    display: block;
-    text-decoration: none;
-    font-size: 2em;
-    color: green;
-}
-
-.responsive a {
-    display: block;
-}
-
-
-
-
-p{
-    background-color:lightcyan;
-
-}
-
-
-/* @media only screen and (min-width: 1000px) {
-    /* Layout of the page */
-
-    /* .gridContainer{
-        grid-template-columns: 2fr 1fr;
-    }
-    #hero{
-        grid-column: 1/3;
-        grid-row: 1/2;
-        padding: 0;
-        position: relative;
-    }
-
-    #chulaVista{
-        width: 100%;
-    }
-
-    #welcome{
-        position: absolute;
-        top: 50px;
-        left: 80px;
-    }
-
-    #news{
-        grid-column: 1/3;
-        grid-row:2/3;
-    }
-
-    #events{
-        grid-column: 1/2;
-        grid-row:4/5;
-    }
-
-    #weather{
-        grid-column: 2/3;
-        grid-row:4/5;
-    }
-
-    #spotlight{
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-
-    #join{
-        grid-column: 1/3;
-        grid-row: 5/6;
-    }
-
-    /* testing background size */
-    /* body {
-        background-color: lightblue;
-      }
-
-    .spot3 {
-        display: none;
-    }
+    text-shadow: 2px 2px 3px #6aacd7;
     
-  /* } */
+}
+
