@@ -34,7 +34,7 @@ button{
     color: #22aed1;
     float: right;
     font-size: 20px;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 nav ul{
@@ -156,6 +156,7 @@ main{
     display: none;
     border-radius:10px;
 }
+
 
 #news{
     border: solid black 1px;
@@ -284,6 +285,12 @@ input[type='submit']{
     background-color: #22aed1;
     color: #fff;
 }
+
+input:hover{
+    background-color: #fff;
+    color:#22aed1;
+}
+
 
 #membership li{
     padding: 10px;
