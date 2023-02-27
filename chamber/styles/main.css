@@ -47,6 +47,7 @@ nav ul{
 
 nav ul li a{
     display:block;
+    color: #fff;
 }
 
 nav ul{display: none;}
@@ -64,7 +65,7 @@ a:hover{
     background-color: #22aed1;
     border-radius:5px;
     box-shadow: 5px 5px 10px #1fa0c1;
-    
+    padding:2px;
 }
 
 #fblogo #gramlogo{
