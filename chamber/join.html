@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for Chula Vista Chamber of Commerce">
+    <meta name="author" content="Megan Bateman">
+    <title>Chula Vista Chamber|Join</title>
+    <link rel="icon" href="favicon.ico">
+    <!-- <link rel="stylesheet" href="styles/chamber.css"> -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script defer src="scripts/chamber.js"></script>
+    <script defer src="scripts/windchill.js"></script>
+</head>
+<body>
+    <!-- <div class="banner">
+        <div class="banner-content">
+            <div class="banner-text"><p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+            <button type="button" class="banner-button"><img src="images/close_FILL0_wght400_GRAD0_opsz48.png" alt="Close Button"></button> -->
+        <!-- </div>
+    </div> -->
+    <header>
+        <nav>
+            <img id="smallLogo" alt="sun rising over hills logo" src="img/WhiteChamberLogo.webp">
+            <div>
+            <button id="hamburgerBtn"><span>&#9776;</span></button>
+            <!-- <span>X</span> -->
+            <!-- <a href="https://www.facebook.com/"><img id="fblogo" src=img/fblogo.png></a>
+            <a href="https://www.instagram.com/"><img id="instalogo" src=img/gramlogo.png></a> -->
+            <ul id="mainview">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discovery</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="date"></div>
+            </div>
+        </nav>
+    </header>
+    <h1 id="banner"></h1>
+    <h1>Join our Chamber</h1>
+    <main id="join_content">
+        <form method="get" action="thankyou.html">
+            <label for="fname">First Name *:</label>
+            <input id="fname" name="firstname" required>
+            <label for="lname">Last Name *:</label>
+            <input id="lname" name="lastname" required>
+            <label for="title">Business Position Title:</label>
+            <input is="title" name="biztitle" pattern="[A-Za-z -]+" minlength="7" required>
+            <label for="email">Email *:</label>
+            <input id="email" name="email" type="email" placeholder="name@domain.com" required>
+            <label for="email">Phone *:</label>
+            <input id="phone" name="phone" type="tel" placeholder="(123)456-7890" required>
+            <label for="business">Business Name *:</label>
+            <input id="business" name="bizname" required>
+            <label for="radio">Select level of Membership</label>
+            <div id="radio">
+            <input id="member" type="radio" name="mlevel">
+            <label for="one">Level 1</label>
+            <input id="member" type="radio" name="mlevel">
+            <label for="two">Level 2</label>
+            <input id="member" type="radio" name="mlevel">
+            <label for="three">Level 3</label>
+            <input id="member" type="radio" name="mlevel">
+            <label for="four">Level 4</label>
+            </div>
+            <label for="message">Business Description:</label>
+            <textarea id="message"></textarea>
+            <input id="date" type="hidden" name="todaydate">
+            <input type="submit" value="Join the Chamber">
+        </form>
+        <section id="membership">
+            <h2>Membership Levels:</h2>
+            <h2>NP Membership</h2>
+            <ul><li>for non profit organizations and there is no fee.</li></ul>
+            <h2>Bronze Membership</h2>
+            <ul><li>15% discounts on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li></ul>
+            <h2>Silver Membership</h2>
+            <ul><li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li></ul>
+            <h2>Gold Membership</h2>
+            <ul><li>50% discount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $100/month</li></ul>
+    
+            </section>
+    </main>
+    
+    <footer>
+        <img id="small_logo2" src="img/chamberLogo.png" alt="logo"/>
+        <h2 id="copy">.</h2>
+        <p>Megan Bateman | WDD230</p>
+        <p>(619)-867-5309</p>
+        <a href="https://goo.gl/maps/4rxtosVJaD9nLPLa9">Chula Vista - Location</a>
+        <div id="year"></div>
+    </footer>
+</body>
+</html>
+
+<!-- use class to get all elements the same
+use ID in the  -->

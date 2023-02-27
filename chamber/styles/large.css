@@ -109,3 +109,11 @@
         display: show;
     }*/
   }
+
+
+  /*Discover Page*/
+
+  img:hover{
+    background-color: #016fb9;
+    border-radius:5px;
+}

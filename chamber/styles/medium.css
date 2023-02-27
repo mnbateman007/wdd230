@@ -126,3 +126,68 @@ img{
     padding: 7px;
     justify-content: start;
 }
+
+img:hover{
+    background-color: #016fb9;
+    border-radius:5px;
+}
+
+#disPage{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#bay{
+    grid-column:1/2;
+    grid-row: 1;
+}
+
+#boat{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+#cityHall{
+    grid-column:1/2;
+    grid-row: 2;
+}
+
+#olympic{
+    grid-column:2/3;
+    grid-row:2;
+}
+
+#rohr{
+    grid-column:1/2;
+    grid-row:3;
+}
+
+#memorial{
+    grid-column: 1/2;
+    grid-row: 4;
+}
+
+#fireworks{
+    grid-column: 2/3;
+    grid-row: 4;
+}
+
+#river{
+    grid-column: 1/2;
+    grid-row: 5;
+}
+
+/* JOIN PAGE*/
+
+#join_content{
+    flex-direction: row;
+    /* margin-left: 80px; */
+}
+
+#membership{
+    margin-left: 10%;
+}
+
+#membership h2{
+    text-align: center;
+}
