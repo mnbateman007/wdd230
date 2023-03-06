@@ -1,4 +1,4 @@
-const url = 'https://github.com/mnbateman007/wdd230/blob/908b86715eb328da38b063d30909a9bf1458c004/chamber/places.json';
+const url = 'https://mnbateman007.github.io/wdd230/chamber/places.json';
 
 async function getBizData() {
     const response = await fetch(url);

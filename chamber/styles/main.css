@@ -97,8 +97,20 @@ a:hover{
     padding:2px;
 }
 
-#fblogo #gramlogo{
+#fblogo {
     width: 20px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    padding-top: 15px;
+}
+
+#instalogo {
+    width: 35px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    padding-top: 15px;
 }
 
 nav h1{
