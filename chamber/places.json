@@ -1,0 +1,58 @@
+{
+    "biz": [
+      {
+        "name": "Scripps Medical",
+        "address": "970 Eastlake Pkwy #102, Chula Vista, CA 91914",
+        "order": 1,
+        "picture": "img/scripps.jpeg"
+      },
+      {
+        "name": "Super Dentists",
+        "address": "2226 Otay Lakes Rd Suites A & B, Chula Vista, CA 91915",
+        "order": 2,
+        "picture": "img/superdentists.png"
+      },
+      {
+        "name": "Manual Orthopedics Physical Therapy",
+        "address": "955 Lane Ave Suite 201, Chula Vista, CA 91914",
+        "order": 3,
+        "picture": "img/manualorthopedics.png"
+      },
+      {
+        "name": "San Diego County Credit Union",
+        "address": "2280 Otay Lakes Rd, Chula Vista, CA 91915",
+        "order": 4,
+        "picture": "img/sdccu.jpeg"
+      },
+      {
+        "name": "Benfield Pet Hospital",
+        "address": "970 Eastlake Pkwy #102, Chula Vista, CA 91914",
+        "order": 5,
+        "picture": "img/banfield.jpeg"
+      },
+      {
+        "name": "Sprouts Farmers Market",
+        "address": "878 Eastlake Pkwy, Chula Vista, CA 91914",
+        "order": 6,
+        "picture": "img/sprouts-logo.png"
+      },
+      {
+        "name": "Lolita's Taco Shop",
+        "address": "871 Showroom Pl #3623, Chula Vista, CA 91914",
+        "order": 7,
+        "picture": "img/lolitas_taco_shop.jpeg"
+      },
+      {
+        "name": "Handle's Homemade Ice Cream",
+        "address": "1450 Eastlake Pkwy Suite 806, Chula Vista, CA 91915",
+        "order": 8,
+        "picture": "img/handle's.jpeg"
+      },
+      {
+        "name": "Eastlake Little League",
+        "address": "1225 N Creekside Dr, Chula Vista, CA 91915",
+        "order": 9,
+        "picture": "img/eastlakeLittleLeague.jpeg"
+      }
+    ]
+  }

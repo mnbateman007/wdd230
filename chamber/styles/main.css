@@ -28,13 +28,32 @@ nav{
     */
 }
 
-button{
+#welcome{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    color:white;
+    padding: 5px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-size: 2em;
+
+    }
+
+/* #joinus{
     background-color: transparent;
     border:none;
     color: #22aed1;
     float: right;
     font-size: 20px;
     /* margin: 10px; */
+} */
+
+#hamburgerBtn {
+    text-decoration-color: white;
+    padding-right: 70px;
+    font-size: 2.5em;
+    -moz-text-decoration-color: white;
 }
 
 nav ul{
@@ -52,6 +71,16 @@ nav ul li a{
 
 nav ul{display: none;}
 nav ul.open{display: block;}
+
+#joinus{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    background: #22aed1;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
 
 a{
     /* display: block; */
@@ -115,6 +144,7 @@ main{
 }
 #small{
     position: relative;
+    display: flex;
     /* position: absolute;
     top: 0;
     left: 0; */
@@ -126,18 +156,11 @@ main{
     display:none;
 }
 
-#chulaVista{
+/* #chulaVista{
     display: none;
-}
+} */
 
-#joinus{
-    position: absolute;
-    bottom: 0;
-    right: 15px;
-    background: #22aed1;
-    text-align: center;
-    padding: 5px;
-}
+
 
 #events{
     border: solid black 1px;
