@@ -178,6 +178,9 @@ main{
     display: none;
 } */
 
+#weather_icon{
+    max-width: 50%;
+}
 
 
 #events{
@@ -238,7 +241,7 @@ p{
 } */
 
 img{
-    display: grid;
+    display: block;
     grid-template-columns: 1fr;
     margin: 0 auto;
     padding: 5px;
