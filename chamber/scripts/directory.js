@@ -20,9 +20,11 @@ async function getBizData() {
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
       let portrait = document.createElement('img');
+      let p = document.createElement('p')
 
       // Build the h2 content out to show the prophet's full name - finish the template string
       h2.textContent = `${logo.name}`;
+      p.textContent=  `${logo.address}`;
 
       // Build the image portrait by setting all the relevant attribute
       portrait.setAttribute('src', logo.picture);
@@ -33,6 +35,7 @@ async function getBizData() {
       // Append the section(card) with the created elements
       card.appendChild(h2);
       card.appendChild(portrait);
+      card.appendChild(p);
 
       cards.appendChild(card);
     } // end of forEach loop

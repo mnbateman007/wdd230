@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
-#smallLogo, #weatherimg, #farm, #trash, #vex, #small_logo2 {
+#smallLogo, #weatherimg, #farm, #trash, #vex, #small_logo2, #runners {
     width:10em;
     height:auto;
-}
-
-#runners{
-    width:10em
 }
 
 body {
@@ -20,7 +16,7 @@ nav{
     border-radius:10px;
     display: flex;
     flex-direction: row;
-    justify-content:left;
+    /* justify-content:left; */
     align-items: center;
     align-content: center;
     list-style-type: none;
@@ -28,7 +24,7 @@ nav{
     */
 }
 
-#welcome{
+/* #welcome{
     position: absolute;
     top: 50px;
     left: 80px;
@@ -38,27 +34,21 @@ nav{
     -webkit-text-stroke-width: 1px;
     font-size: 2em;
 
-    }
+    } */
 
-/* #joinus{
-    background-color: transparent;
-    border:none;
-    color: #22aed1;
-    float: right;
-    font-size: 20px;
-    /* margin: 10px; */
- */
 
 #hamburgerBtn {
-    text-decoration-color: darkblue;
-    padding-right: 70px;
+    /* text-decoration-color: lightblue; */
+    /*padding-right:px;*/
     font-size: 2.5em;
-    -moz-text-decoration-color: darkblue;
+    /* -moz-text-decoration-color: lightblue; */
+    /* align-items: right; */
+    position: relative; left:250px;
 }
 
 nav ul{
     list-style-type: none;
-    padding: 0;
+    padding-left: 25px ;
     margin: 0;
     float: right;
     /* position: absolute */
@@ -240,7 +230,7 @@ p{
     grid-template-columns: 1fr;
 } */
 
-img{
+#pics{
     display: block;
     grid-template-columns: 1fr;
     margin: 0 auto;
@@ -266,6 +256,9 @@ input {
     height: 50px;
 }
 
+#bay {
+    padding-left:50px;
+}
 /*  JOIN PAGE */
 
 #join_content{
@@ -331,10 +324,10 @@ input[type='submit']{
     color: #fff;
 }
 
-input:hover{
+/* input:hover{
     background-color: #fff;
     color:#22aed1;
-}
+} */
 
 
 #membership li{
@@ -357,6 +350,7 @@ input:hover{
 
 /*Discover Page*/
 
+
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -364,10 +358,10 @@ input:hover{
     justify-content: center;
 }
 
-/* h1, h2 {
+h1, h2 {
     text-align: center;
     color: navy;
-} */
+}
 
 
 .cards section {
@@ -399,11 +393,12 @@ table {
     width: 75%;
     margin: 50px;
     font-size: 1.2em;
+    display: none;
 }
 
 td {
     padding: 5px;
-    display: block;
+    display: table-cell;
 }
 
 tr:nth-of-type(even){
