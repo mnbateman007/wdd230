@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
-#smallLogo, #weatherimg, #farm, #trash, #vex, #small_logo2, #runners {
+#smallLogo, #weatherimg, #farm, #trash, #vex, #small_logo2, #runners, #weather_icon {
     width:10em;
     height:auto;
 }
@@ -41,14 +41,17 @@ nav{
     /* text-decoration-color: lightblue; */
     /*padding-right:px;*/
     font-size: 2.5em;
+    background-color: transparent;
     /* -moz-text-decoration-color: lightblue; */
     /* align-items: right; */
-    position: relative; left:250px;
+    position: absolute;
+    top: 55px;
+    right:25px;
 }
 
 nav ul{
     list-style-type: none;
-    padding-left: 25px ;
+    justify-content:left;
     margin: 0;
     float: right;
     /* position: absolute */
@@ -162,14 +165,6 @@ main{
 }
 #large{
     display:none;
-}
-
-/* #chulaVista{
-    display: none;
-} */
-
-#weather_icon{
-    max-width: 50%;
 }
 
 

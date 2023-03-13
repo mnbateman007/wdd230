@@ -24,7 +24,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
 if (day == 1 || day == 2){
-    document.querySelector('#banner').innerHTML = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+    document.querySelector('#banner').innerHTML = 'Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
 }
 
 // let day = date.getDay();
