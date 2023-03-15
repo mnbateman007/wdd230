@@ -27,7 +27,7 @@
         justify-content: center;
     }
     
-    main{
+    #content{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
@@ -116,7 +116,7 @@
         border: solid black 1px;
         grid-column: 1/3;
         grid-row: 5/6;
-        margin; 5px;
+        margin: 5px;
         text-align: center;
     }
     
@@ -130,23 +130,23 @@
 
 /*  Discover Page*/
 
-img{
+/* .pics{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     padding: 7px;
     justify-content: start;
-}
+} */
 
 .pics:hover{
     background-color: #016fb9;
     border-radius:5px;
 }
 
-#disPage{
+/* #disPage{
     display:grid;
     grid-template-columns: 1fr 1fr;
-}
+} */
 
 #bay{
     grid-column:1/2;
@@ -173,21 +173,35 @@ img{
     grid-row:3;
 }
 
-#memorial{
+#mthawk{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+#heratige{
     grid-column: 1/2;
     grid-row: 4;
 }
 
-#fireworks{
+#golf{
     grid-column: 2/3;
     grid-row: 4;
 }
 
-#river{
-    grid-column: 1/2;
+#otay{
+    grid-column:1/2;
+    grid-row:5;
+}
+
+#eastlake{
+    grid-column: 2/3;
     grid-row: 5;
 }
 
+#days{
+    grid-column: 1/3;
+    grid-row: 6;
+}
 /* JOIN PAGE*/
 
 #join_content{

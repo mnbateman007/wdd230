@@ -220,17 +220,20 @@ p{
 
 /*discover page*/
 
-/* #dispage{
+#disPage{
     display:grid;
     grid-template-columns: 1fr;
-} */
+}
 
-#pics{
+#bay, #boat, #cityHall, #olympic, #rohr, #mthawk, #heratige, #golf, #otay, #eastlake{
     display: block;
     grid-template-columns: 1fr;
     margin: 0 auto;
     padding: 5px;
+
 }
+
+.pics{}
 
 #days{
     display: block;
