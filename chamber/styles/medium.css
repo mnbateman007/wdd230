@@ -20,7 +20,7 @@
         flex-direction: row;
         justify-content: space-around;
         margin: 5px;
-        padding-right: 100px;
+        padding-right: 130px;
     }
 
     button{
@@ -232,6 +232,8 @@
 
 /*Directory PAge*/
 #directory td{
-    padding: 5px;
-    display: table-cell; /*media query use table-cell*/
+    display: table-cell;
+    /* width: 85%; */
+    margin: 5% auto;
+    }
 }

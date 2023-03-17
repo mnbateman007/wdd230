@@ -9,7 +9,7 @@ let date = new Date();
 let day = date.getDay();
 let year = date.getFullYear();
 
-document.querySelector('#copy').innerHTML = "&copy" + year + " | Megan Bateman | Idaho";
+document.querySelector('#copy').innerHTML = "&copy" + year + " | Megan Bateman | Chula Vista";
 
 let currentdate = document.lastModified;
 

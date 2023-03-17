@@ -403,24 +403,19 @@ table {
     width: 75%;
     margin: 50px;
     font-size: 1.2em;
-    display: none;
 }
 
 td {
     padding: 5px;
-    display: table-cell;
+    display: block;
 }
 
 tr:nth-of-type(even){
     background-color: #ccc;
 }
 
-/* table a{
-    color: navy;
-} */
-
-@media only screen and (min-width: 1000px){
+/* @media only screen and (min-width: 1000px){
     .table.td{
         display: table-cell;
-    }
+    } */
 }

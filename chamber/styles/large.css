@@ -194,6 +194,8 @@
 }
 
   /*Directory Page*/
-  .table.td{
+  .table{
     display: table-cell;
+    width: 85%;
+    margin: 5% auto;
 }
