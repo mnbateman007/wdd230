@@ -6,6 +6,20 @@
         justify-content: space-evenly;
         margin: 10px;
     }
+
+    nav{
+        background-color: #016fb9;
+        box-shadow: 5px 5px 20px #688697;
+        border-radius:10px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 25px;
+        align-items: center;
+        align-content: center;
+        list-style-type: none;
+        /*justify-content: space-between;
+        */
+    }
     
     #content{
         display: grid;
@@ -77,15 +91,18 @@
     #spot1{
         border: solid black 1px;
         grid-column:3/4;
-        grid-row:1/4;
+        grid-row:1/2;
         margin: 5px;
+
+        
     }
     
     #spot2{
         border: solid black 1px;
         grid-column: 3/4;
         grid-row: 2/3;
-        margin: 5px
+        margin: 5px;
+        
     }
     
     #spot3{
@@ -97,15 +114,16 @@
         text-align: center;
         border-radius:10px;
         padding: 5px;
+        padding: 30px
     }
 
     #vex{
         width:10em;
         height:auto;
-        justify-content: center;
-    }
+        /* position: relative;
+        left: 50px; */
+        place-items: center;
   }
-
 
   /*Discover Page*/
 
@@ -123,60 +141,57 @@
         grid-column:1/2;
         grid-row: 1;
     }
-    
+
     #boat{
         grid-column: 2/3;
         grid-row: 1;
     }
-    
+
     #cityHall{
         grid-column:3/4;
         grid-row: 1;
     }
-    
+
     #olympic{
         grid-column:1/2;
         grid-row:2;
     }
-    
+
     #rohr{
         grid-column:2/3;
         grid-row:2;
     }
-    
+
     #mthawk{
         grid-column:3/4;
         grid-row: 2;
     }
-    
+
     #heratige{
         grid-column: 1/2;
         grid-row: 3;
     }
-    
+
     #golf{
         grid-column: 2/3;
         grid-row: 3;
     }
-    
+
     #otay{
         grid-column:3/4;
         grid-row:3;
     }
-    
+
     #eastlake{
         grid-column: 2/3;
         grid-row: 4;
     }
-    
+
     #days{
         grid-column: 2/3;
         grid-row: 5;
     }
-
-
 }
-
 
   /*Directory Page*/
   .table.td{
