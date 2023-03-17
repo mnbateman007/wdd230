@@ -66,12 +66,18 @@ function displayTable(logos){
     let tr = document.createElement('tr');
     let td_name = document.createElement('td');
     let td_address = document.createElement('td');
+    let td_phone = document.createElement('td');
+    let td_website = document.createElement('td');
 
     td_name.textContent = `${logo.name}`;
-    td_address.textContent = logo.address;
+    td_address.textContent = `${logo.address}`;
+    td_phone.textContent = `${logo.phone}`;
+    td_website.textContent = `${logo.website}`;
 
     tr.appendChild(td_name);
     tr.appendChild(td_address);
+    tr.appendChild(td_phone);
+    tr.appendChild(td_website);
 
     document.querySelector('table').appendChild(tr);
 

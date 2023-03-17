@@ -4,55 +4,74 @@
         "name": "Scripps Medical",
         "address": "970 Eastlake Pkwy #102, Chula Vista, CA 91914",
         "order": 1,
-        "picture": "img/scripps.jpeg"
+        "picture": "img/scripps.jpeg",
+        "phone": "800-727-4777",
+        "website": "https://www.scripps.org/"
+
       },
       {
         "name": "Super Dentists",
         "address": "2226 Otay Lakes Rd Suites A & B, Chula Vista, CA 91915",
         "order": 2,
-        "picture": "img/superdentists.png"
+        "picture": "img/superdentists.png",
+        "phone": "(619) 336-8478",
+        "website": "https://www.thesuperdentists.com/locations/eastlake-dentist-orthodontist/"
       },
       {
         "name": "Manual Orthopedics Physical Therapy",
         "address": "955 Lane Ave Suite 201, Chula Vista, CA 91914",
         "order": 3,
-        "picture": "img/manualorthopedics.png"
+        "picture": "img/manualorthopedics.png",
+        "phone": "(619)421-9521",
+        "website": "https://moptinc.com/"
       },
       {
         "name": "San Diego County Credit Union",
         "address": "2280 Otay Lakes Rd, Chula Vista, CA 91915",
         "order": 4,
-        "picture": "img/sdccu.jpeg"
+        "picture": "img/sdccu.jpeg",
+        "phone": "(877) 732-2848",
+        "website": "https://www.sdccu.com/"
       },
       {
         "name": "Benfield Pet Hospital",
         "address": "970 Eastlake Pkwy #102, Chula Vista, CA 91914",
         "order": 5,
-        "picture": "img/banfield.jpeg"
+        "picture": "img/banfield.jpeg",
+        "phone": "(619) 482-4310",
+        "website": "https://www.banfield.com/"
       },
       {
         "name": "Sprouts Farmers Market",
         "address": "878 Eastlake Pkwy, Chula Vista, CA 91914",
         "order": 6,
-        "picture": "img/sprouts-logo.png"
+        "picture": "img/sprouts-logo.png",
+        "phone": "(619) 421-2099",
+        "website": "https://sproutscv.com/"
       },
       {
         "name": "Lolita's Taco Shop",
         "address": "871 Showroom Pl #3623, Chula Vista, CA 91914",
         "order": 7,
-        "picture": "img/lolitas_taco_shop.jpeg"
+        "picture": "img/lolitas_taco_shop.jpeg",
+        "phone": "(619) 565-2271",
+        "website": "https://lolitasmexicanfood.com/location/eastlake/"
       },
       {
         "name": "Handle's Homemade Ice Cream",
         "address": "1450 Eastlake Pkwy Suite 806, Chula Vista, CA 91915",
         "order": 8,
-        "picture": "img/handle's.jpeg"
+        "picture": "img/handle's.jpeg",
+        "phone": "(619) 500-5121",
+        "website": "https://handelsicecream.com/"
       },
       {
         "name": "Eastlake Little League",
         "address": "1225 N Creekside Dr, Chula Vista, CA 91915",
         "order": 9,
-        "picture": "img/eastlakeLittleLeague.jpeg"
+        "picture": "img/eastlakeLittleLeague.jpeg",
+        "phone": "(619)227-2255",
+        "website": "https://eastlakell.teampages.com/"
       }
     ]
   }

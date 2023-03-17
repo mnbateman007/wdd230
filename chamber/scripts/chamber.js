@@ -1,5 +1,5 @@
 function toggleMenu() {
-    document.querySelector("#mainview").classList.toggle("open");
+    document.querySelector("#Navview").classList.toggle("open");
     document.querySelector("#hamburgerBtn").classList.toggle("open");
 }
 const x = document.querySelector("#hamburgerBtn")

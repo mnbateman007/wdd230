@@ -92,12 +92,16 @@ a{
     font-weight: 700;
 }
 
-a:hover{
+.bar a:hover{
     background-color: #22aed1;
     border-radius:5px;
     box-shadow: 5px 5px 10px #1fa0c1;
     padding:2px;
 }
+
+/* a:active{
+    background-color: #22aed1;
+} */
 
 #fblogo {
     width: 20px;
