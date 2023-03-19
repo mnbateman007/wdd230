@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
-#smallLogo, #weatherimg, #farm, #trash, #vex, #small_logo2, #weather_icon, #vex{
+#smallLogo, #weatherimg, #farm, #trash, #small_logo2, #weather_icon{
     width:10em;
     height:auto;
 }
@@ -291,7 +291,7 @@ input {
 
 label, input{
     display: block;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 label{
@@ -418,4 +418,12 @@ tr:nth-of-type(even){
     .table.td{
         display: table-cell;
     } */
-}
+    #contact_page{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-around;
+        color: #0a1256;
+        font-family: 'Libre Baskerville', serif;
+    }

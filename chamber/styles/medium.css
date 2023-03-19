@@ -230,10 +230,15 @@
     text-align: center;
 }
 
-/*Directory PAge*/
+/*Directory Page*/
 #directory td{
     display: table-cell;
     /* width: 85%; */
     margin: 5% auto;
     }
+
+/*Contact Page*/
+#contactPage{
+    flex-direction: row;
+}
 }

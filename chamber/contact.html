@@ -41,8 +41,33 @@
         </nav>
     </header>
     <h1 id="banner"></h1>
-    <main id="content">
-        
+    <main id="contactPage">
+        <form method="get" action="contactthanks.html">
+            <h2>Contact Form</h2>
+            <p>*indicates required field</p>
+            <label for="fname">First Name *:</label>
+            <input id="fname" name="firstname" required>
+            <label for="lname">Last Name *:</label>
+            <input id="lname" name="lastname" required>
+            <label for="email">Email *:</label>
+            <input id="email" name="email" type="email" placeholder="name@domain.com" required>
+            <label for="email">Phone *:</label>
+            <input id="phone" name="phone" type="tel" placeholder="(123)456-7890" required>
+            <label for="concern">Question/concern *:</label>
+            <textarea id="message"></textarea>
+            <input id="date" type="hidden" name="todaydate">
+            <input type="submit" value="Submit">
+        </form>
+        <section id="info">
+            <h2>Contact Us</h2>
+            <h4>Address</h4>
+                <p>Chula Vista Chamber of Commerce</p>
+                <p>233 4th Ave, Chula Vista, CA 91910</p>
+            <h4>Phone</h4>
+                <p>(619) 420-6603</p>
+            <h4>Email</h4>
+                <p></p>
+            </section>
 
     </main>
     
@@ -50,7 +75,7 @@
         <img id="small_logo2" src="img/chamberLogo.png" alt="logo"/>
         <h2 id="copy">.</h2>
         <p id="jenny">(619)-867-5309</p>
-        <a href="https://goo.gl/maps/4rxtosVJaD9nLPLa9">Chula Vista - Location</a>
+        <a target="_blank" href="https://goo.gl/maps/4rxtosVJaD9nLPLa9">Chula Vista - Location</a>
         <div id="year"></div>
     </footer>
 </body>

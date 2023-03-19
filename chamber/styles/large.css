@@ -93,18 +93,15 @@
         grid-column:3/4;
         grid-row:1/2;
         margin: 5px;
-
-        
     }
-    
+
     #spot2{
         border: solid black 1px;
         grid-column: 3/4;
         grid-row: 2/3;
         margin: 5px;
-        
     }
-    
+
     #spot3{
         display: grid;
         border: solid black 1px;
@@ -118,12 +115,10 @@
     }
 
     #vex{
-        width:10em;
+        width:50%;
         height:auto;
-        /* position: relative;
-        left: 50px; */
-        place-items: center;
-  }
+        padding-left: 65px;
+    }
 
   /*Discover Page*/
 
@@ -137,58 +132,62 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #bay{
-        grid-column:1/2;
-        grid-row: 1;
+    #directory{
+        
     }
 
-    #boat{
-        grid-column: 2/3;
-        grid-row: 1;
+    #bay{
+        grid-column:1/2;
+        grid-row: 2;
     }
+
+    /* #boat{
+        grid-column: 2/3;
+        grid-row: 2;
+    } */
 
     #cityHall{
         grid-column:3/4;
-        grid-row: 1;
+        grid-row: 2;
     }
 
     #olympic{
-        grid-column:1/2;
+        grid-column:2/3;
         grid-row:2;
     }
 
     #rohr{
         grid-column:2/3;
-        grid-row:2;
+        grid-row:3;
     }
 
     #mthawk{
         grid-column:3/4;
-        grid-row: 2;
+        grid-row: 3;
     }
 
     #heratige{
         grid-column: 1/2;
-        grid-row: 3;
+        grid-row: 4;
     }
 
     #golf{
         grid-column: 2/3;
-        grid-row: 3;
+        grid-row: 4;
     }
 
     #otay{
         grid-column:3/4;
-        grid-row:3;
+        grid-row:4;
     }
 
     #eastlake{
-        grid-column: 2/3;
-        grid-row: 4;
+        grid-column: 1/2;
+        grid-row: 3;
     }
 
     #days{
-        grid-column: 2/3;
+        grid-column: 3/4;
         grid-row: 5;
     }
 }
