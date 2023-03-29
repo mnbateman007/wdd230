@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400&family=Saira+Semi+Condensed:wght@200;300;400;600&display=swap');
+
+body {
+    height: 100%;
+    max-width: 1400px;
+    background-color: #e6e6e6;
+  }
+
+#logo{
+  height:5em;
+}
+
+#page1, #page2, #page3, #type{
+  height: 15em;
+}
+
+#coolors, #map{
+  height: 10em;
+}
+
+nav{
+  background-color: #003D26;
+  box-shadow: 5px 5px 20px #688697;
+  border-radius:10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  list-style-type: none;
+  font-family: Outfit, sans-serif;
+  /*justify-content: space-between;
+  */
+}
+
+
+nav ul{
+  list-style-type: none;
+  justify-content:left;
+  margin: 0;
+  float: right;
+  /* position: absolute */
+}
+
+nav ul li a{
+  display:block;
+  color: #fff;
+}
+
+/* nav ul{display: none;}
+nav ul.open{display: block;} */
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: Outfit, sans-serif;
+}
+
+

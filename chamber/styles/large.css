@@ -122,7 +122,7 @@
 
   /*Discover Page*/
 
-  .pics:hover{
+    .pics:hover{
     background-color: #016fb9;
     border-radius:5px;
 }
@@ -132,9 +132,9 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #directory{
+    /* #directory{
         
-    }
+    } */
 
     #bay{
         grid-column:1/2;
