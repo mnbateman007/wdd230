@@ -23,67 +23,27 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-if (day == 1 || day == 2){
-    document.querySelector('#banner').innerHTML = 'Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
-}
-
 localStorage.setItem('name','Megan Bateman - Permanent');
 sessionStorage.setItem('class','WDD230 - not Permanent');
 
 // let day = date.getDay();
 
-// if (day == 1 || day == 2) {
-//     let banner = document.querySelector('.banner');
-//     banner.style.display = 'block';
-
-//     document.querySelector(".banner-button").addEventListener("click", function () {
-//         banner.style.display = 'none';
-//       });
+// if(!localStorage.getItem('lastvisit')) {
+//     localStorage.setItem('lastvisit', Date.now());
+//     document.getElementById('visits').textContent = 'This is your 1st visit';
 // } else {
-//     let banner = document.querySelector('.banner');
-//     banner.style.display = 'none';
+//     giveDate();
 // }
 
+// function giveDate() {
+//     let lastDate = localStorage.getItem('lastvisit');
+//     let currDate = Date.now();
+    
+//     let difference = currDate - lastDate;
+//         console.log(difference);
+//         let daysDifference = Math.floor(difference/1000/60/60/24);
 
-// function toggleMenu() {
-//     document.getElementById("primaryNav").classList.toggle("open");
-//     document.getElementById("hamburgerBtn").classList.toggle("open");
+//     document.getElementById('visits').textContent = daysDifference;
 
-// }
-
-// const x = document.getElementById('hamburgerBtn')
-// x.onclick = toggleMenu;
-
-// let date = new Date();
-// let day = date.getDay();
-// let year = date.getFullYear();
-
-// document.querySelector('#copy').innerHTML = '&copy;' + year + "| Idaho Falls Chamber";
-
-// let currentdate = document.lastModified;
-
-// document.querySelector('#year').textContent = `Last Updated: ${currentdate}`;
-
-// const datefield = document.querySelector(".date");
-// const now = new Date();
-// const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-// 	now
-// );
-
-// datefield.innerHTML = `<em>${fulldate}</em>`;
-
-// if (day == 1 || day == 2){
-//     document.querySelector('#banner').innerHTML = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
-// }
-
-
-// // storage local and session
-// localStorage.setItem('name','Adelyn Smith - Permanent');
-// sessionStorage.setItem('class','WDD230 - not Permanent');
-
-
-
-
-
-
-
+//     localStorage.setItem('lastvisit', Date.now());
+    

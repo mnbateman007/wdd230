@@ -38,29 +38,13 @@ async function getBizData() {
       card.appendChild(p);
 
       cards.appendChild(card);
-    } // end of forEach loop
+    }
   )} // end of function expression
 
 
 /*Table Function*/
 
 function displayTable(logos){
-
-  // let list = document.getElementById("list").style.display = "none";
-  // list.addEventListener("click", displayTable);
-
-  // let cards = document.getElementById("cards").style.display = "none";
-  // cards.addEventListener("click",displayProphets);
-    // let row = document.querySelectorAll('tr');
-    //     row.forEach((item)=>{
-    //       item.remove();
-    //     })
-    // let section = document.querySelectorAll('tr');
-    //     section.forEach((item)=>{
-    //       item.remove();
-    //     })
-
-   
 
   logos.forEach((logo)=>{
     let tr = document.createElement('tr');
@@ -90,7 +74,10 @@ table_button = document.querySelector("#list")
 card_button =document.querySelector("#cards")
 
 
-
+window.addEventListener("load", () => {
+  card_class.style.display = "flex";
+  table_class.style.display = "none";
+});
 
 card_button.addEventListener("click", () => {
   card_class.style.display = "flex";
@@ -101,6 +88,3 @@ table_button.addEventListener("click", () => {
   card_class.style.display = "none";
   table_class.style.display = "block";
 });
-
-// let lists = document.getElementById("lists");
-// lists.addEventListener("click",displayTable);

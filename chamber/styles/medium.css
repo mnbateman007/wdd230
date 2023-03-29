@@ -73,9 +73,9 @@
 
     #welcome{
         position: absolute;
-        top: 50px;
+        top: 20px;
         left: 80px;
-        color:white;
+        color:navy;
         padding: 5px;
     }
 
