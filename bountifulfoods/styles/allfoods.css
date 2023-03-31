@@ -9,13 +9,39 @@ body {
 #logo{
   height:5em;
 }
-
+/*Images for site plan*/
 #page1, #page2, #page3, #type{
   height: 15em;
 }
 
-#coolors, #map{
+#coolors, #map {
   height: 10em;
+}
+
+/*back to normal*/
+
+#fblogo {
+  width: 20px;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  padding-top: 15px;
+}
+
+#gramlogo {
+  width: 35px;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  padding-top: 15px;
+}
+
+#twitterlogo {
+  width: 5px;
+  position: absolute;
+  top: 0;
+  /* right: 50px;
+  padding-top: 15px; */
 }
 
 nav{
@@ -29,8 +55,6 @@ nav{
   align-content: center;
   list-style-type: none;
   font-family: Outfit, sans-serif;
-  /*justify-content: space-between;
-  */
 }
 
 
@@ -39,7 +63,6 @@ nav ul{
   justify-content:left;
   margin: 0;
   float: right;
-  /* position: absolute */
 }
 
 nav ul li a{
@@ -54,4 +77,13 @@ h1, h2, h3, h4, h5, h6, p{
   font-family: Outfit, sans-serif;
 }
 
+
+
+div{
+
+}
+
+.quote{
+  ali
+}
 
