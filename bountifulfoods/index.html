@@ -9,44 +9,71 @@
     <link rel="stylesheet" href="styles/allfoods.css">
     <link rel="stylesheet" href="styles/medfoods.css">
     <link rel="stylesheet" href="styles/largefoods.css">
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/weather.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <a><img id="logo" src="imgs/whitelogo.png"></a>
-            <ul id=navView">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id=navView"></ul>
+                <li><a><img id="logo" src="imgs/whitelogo.png" alt="logo"></a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
             </ul>
+            <a id="gramlogo" href="https://www.instagram.com/"><img src="imgs/gramlogo copy.png" alt="instagram"></a>
+            <a id="fblogo" href="https://www.facebook.com/"><img src="imgs/fblogo copy.png" alt="facebook"></a>
+        <!-- <a id="twlogo" href="https://twitter.com/"><img src="imgs/twitter-logo.png" alt="twitter"></a> -->
         </nav>
-        <a id="gramlogo" href="https://www.instagram.com/"><img src="imgs/gramlogo copy.png"></a>
-        <a id="fblogo" href="https://www.facebook.com/"><img src="imgs/fblogo copy.png"></a>
-        <a id="twitterlogo" href="https://twitter.com/"><img src="imgs/twitter-logo.png"></a>
     </header>
+    <div class="date"></div>
+    <section id="hero">
+        <h1 id="hero_message">Welcome to Bountiful Foods!</h1>
+        <img id="hero_img" src="imgs/fruit.jpeg" alt="Hero Fruit" />
+        <img id="hero_img_large" src="images/fruithero_large.jpg" alt="Large Picture of Fruit">
+      </section>
     <main id="content">
-        <img src="imgs/fruit.jpeg">
-        <section id="purpose">
+        <!-- <img id="fruit" src="imgs/fruit.jpeg" alt="banner of fruit"> -->
+        <section id="info">
             <h2>Information</h2>
             <p>This website could serve as a valuable resource for individuals who are looking to improve their health and nutrition by incorporating fresh fruits into their diets. Overall, the goal of the website would be to promote the use of fresh fruit in smoothies as a delicious and nutritious way to improve health and wellness and give customers the opportunity to customize their smoothies based on the fresh fruit we have in stock.</p>
         </section>
-        <section>
-            <h2 id="blender">Make a Drink</h2>
-            <p id="ordered">Drinks Ordered</p>
-        </section>
+        <section id="action">
+            <img id="smoothie" src="imgs/smoothie.png" alt="Fruit drink"><br><br><br><hr><br>
+            <a href="fresh.html">
+              <p id="order">Make a Drink</p>
+            </a>
+              <p id="drinkCount">Drinks Ordered: <span id="number_ordered"></span> </p>
+          </section>
         <section id="weather">
             <h2>Weather</h2>
                 <img id="weather_icon" src="" alt=""/>
-                <h3 id="temp"><span id='t'></span>°F</h3>
                 <p id='condition'></p>
+                <h3 id="temp"><span id='t'></span>°F</h3>
+                <p id="day1"><span id='one'></span>°F</p>
+                <p id="day2"><span id='two'></span>°F</p>
+                <p id="day3"><span id='three'></span>°F</p>
                 <hr>
                 <p>WindSpeed: <span id='ws'></span>mph</p>
-                <p>Wind Chill: <span  class="wc">N/A</span></p>
+                <p>Humidity: <span id="h"></span>%</p>
         </section>
         <section id="">
             
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <!-- <img id="small_logo" src="images/small_logo.png" alt="logo" /> -->
+      <h1>Bountiful Foods</h1>
+      <h2 id="copy">.</h2>
+      <p>Megan Bateman | WDD230</p>
+      <p>(855)867-5309</p>
+      <a
+        href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1216437,-117.3578427,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24"
+        target="_blank"
+        >Location</a
+      >
+      <div id="year"></div>
+    </footer>
 </body>
 </html>

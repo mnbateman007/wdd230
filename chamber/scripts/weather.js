@@ -1,5 +1,8 @@
 const apiURL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/chula%20vista?unitGroup=us&key=YF24ETW42DN9SXLGMM3JC3H42&contentType=json";
 
+
+console.log(2+2);
+
 const getWeather = async () => {
     const response = await fetch(apiURL);
     const data = await response.json();

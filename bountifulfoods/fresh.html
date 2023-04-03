@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/allfoods.css">
     <link rel="stylesheet" href="styles/medfoods.css">
     <link rel="stylesheet" href="styles/largefoods.css">
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/weather.js"></script>
 </head>
 <body>
     <header>
@@ -22,7 +24,7 @@
         </nav>
         <a id="gramlogo" href="https://www.instagram.com/"><img src="imgs/gramlogo copy.png"></a>
         <a id="fblogo" href="https://www.facebook.com/"><img src="imgs/fblogo copy.png"></a>
-        <a id="twitter-logo" href="https://twitter.com/"><img src="imgs/twitter-logo.png"></a>
+        <!-- <a id="twlogo" href="https://twitter.com/"><img src="imgs/twitter-logo.png"></a> -->
     </header>
     <main id="maincontent">
         <form method="get" action="thankyou.html">
@@ -38,6 +40,22 @@
             <input id="phone" name="phone" type="tel" placeholder="(123)456-7890" required>
             <!-- <label for="business">Business Name *:</label>
             <input id="business" name="bizname" required> -->
+
+            <select name="fruit_name" id="fruits">
+                <option value="">Choose Fruit</option>
+              </select><br><br>
+      
+              <select name="fruit_name2" id="fruits">
+                <option value="">Choose a 2nd Fruit</option>
+              </select><br><br>
+      
+              <select name="fruit_name3" id="fruits">
+                <option value="">Choose a 3rd option</option>
+              </select>
+              <label for="message">Mixing Directions:</label>
+        <textarea id="message"></textarea>
+        <input id="date" type="hidden" name="todaydate" />
+        <input type="submit" value="Place Order" id="drinkCount" />
         </form>
     </main>
     <footer></footer>
