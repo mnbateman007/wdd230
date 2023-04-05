@@ -351,23 +351,32 @@ input[type='submit']{
   border: 3px solid #003D26 ;
 }
 
-#aboutusContent{
+/* #aboutusContent{
   display: grid;
   grid-template-columns: 1fr;
-}
+} */
 
-#pics{
+.pics{
   display: block;
   margin: 10px auto;
-  width: 75%;
+  padding-bottom: 30px;
 }
 
-#about-info{
+#map{
+  display: block;
+        padding-top:50px;
+        padding-bottom: 50px;
+        height: 30%;
+}
+
+#aboutinfo{
   font-family: Outfit, sans-serif;
   color:#34462A;
-  border: 3px solid #003D26 ;
+  /* border: 3px solid #003D26 ; */
   border-radius: 3px;
-  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.2em;
 
 }
 

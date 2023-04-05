@@ -64,13 +64,14 @@
         margin: 0 auto;
         width: 75%;
         padding-bottom: 50px;
+        font-size: 1.4em;
     }
 
     #beach{
         grid-column: 1/2;
         grid-row: 2;
         justify-content: center;
-        display: block;
+        /* display: block; */
         margin-left: auto;
         margin-right: auto;
         /* width: 50%; */
@@ -79,7 +80,7 @@
     #fruitbasket{
         grid-column: 2/3;
         grid-row: 2;
-        display: block;
+        /* display: block; */
         margin-left: auto;
         margin-right: auto;
         /* width: 50%; */
@@ -88,7 +89,7 @@
     #flowers{
         grid-column: 3/4;
         grid-row: 2;
-        display: block;
+        /* display: block; */
         margin-left: auto;
         margin-right: auto;
         /* width: 50%; */
