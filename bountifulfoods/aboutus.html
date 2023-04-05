@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/medfoods.css">
     <link rel="stylesheet" href="styles/largefoods.css">
     <script defer src="scripts/main.js"></script>
-    <script defer src="scripts/weather.js"></script>
+    <script defer src="scripts/lazyload.js"></script>
 </head>
 <body>
     <header>
@@ -26,20 +26,38 @@
         <a id="fblogo" href="https://www.facebook.com/"><img src="imgs/fblogo copy.png"></a>
         <!-- <a id="twlogo" href="https://twitter.com/"><img src="imgs/twitter-logo.png"></a> -->
     </header>
-    <main id="maincontent">
-        <section>
+    <main id="aboutusContent">
+        <section id="aboutinfo">
         <h1>Learn about our company</h1>
         <h3>Rocky soil makes the plant grow better</h3>
         <p>When starting our company back in 1989 we wanted to make sure our customers felt how much we love our fruit and how much of that love gets to be experienced by them because of the quality of our fruit. Now we don't have someone go read our plants a bed time story every night but we do treat them like our children.</p>
         <p>We hope you enjoy our smoothies! We strive for the highest quality of fruit to show off to the world.</p>
         </section>
-        <img src="imgs/fruitz.jpeg">
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.70960553165!2d-117.35784198435228!3d33.12164373198391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1680289179075!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+        <section id="map">
+            <iframe id="mapview" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.70972258801!2d-117.35801366095833!3d33.1216436358472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1680545062010!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        
+        <section id="beach">
+            <img class="pics" src="https://dummyimage.com/300x200/ccc/fff" data-src="imgs/beach.jpg" alt="beach">
+          </section>
+          <section id="flowers">
+            <img class="pics" src="https://dummyimage.com/300x200/ccc/fff" data-src="imgs/flowerfield.jpg" alt="flower field">
+          </section>
+          <section id="fruitbasket">
+            <img class="pics" src="https://dummyimage.com/300x200/ccc/fff" data-src="imgs/fruitbasket.jpg" alt="fruit for sale">
+          </section>
 
     </main>
-    <footer></footer>
+    <footer>
+        <h1>Bountiful Foods</h1>
+      <h2 id="copy">.</h2>
+      <p>Megan Bateman | WDD230</p>
+      <p>(855)867-5309</p>
+      <a
+        href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1216437,-117.3578427,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24"
+        target="_blank"
+        >Location</a
+      >
+      <div id="year"></div>
+    </footer>
 </body>
 </html>

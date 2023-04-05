@@ -1,3 +1,106 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 900px){
+    nav ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10px;
+    }
     
+/* Banner Image */
+
+    #content_section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row:1;
+    }
+    
+    #bannerimg{
+        width:100%;
+        grid-column: 1/4;
+        display: none
+    } 
+
+    #bannerlarge{
+        display: grid;
+        width: 95%;
+        margin: 0 auto;
+        grid-column: 1/4;
+    }
+
+    #content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #weather{
+        grid-column: 1/2;
+        grid-row:1;
+    }
+
+    #info{
+        grid-column: 2/3;
+        grid-row:1;
+    }
+
+    #action{
+        grid-column: 3/4;
+        grid-row: 2;
+    }
+
+    #smoothie{
+        width: 60%;
+    }
+
+    /*About Us page*/
+
+    #aboutusContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #aboutinfo{
+        grid-column: 1/4;
+        grid-row: 1;
+        margin: 0 auto;
+        width: 75%;
+        padding-bottom: 50px;
+    }
+
+    #beach{
+        grid-column: 1/2;
+        grid-row: 2;
+        justify-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 50%; */
+    }
+
+    #fruitbasket{
+        grid-column: 2/3;
+        grid-row: 2;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 50%; */
+    }
+
+    #flowers{
+        grid-column: 3/4;
+        grid-row: 2;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 50%; */
+    }
+
+    #map{
+        grid-column: 1/4;
+        grid-row: 3;
+        padding-top:50px;
+        padding-bottom: 50px;
+        display: block;
+        height: 30%;
+        
+    }
 }
