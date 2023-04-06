@@ -28,20 +28,8 @@
         <!-- <a id="twlogo" href="https://twitter.com/"><img src="imgs/twitter-logo.png"></a> -->
     </header>
     <main id="maincontent">
-        <div id="outputbox">
-            <h2>Nutritional Facts</h2>
-            <p>Calories:</p>
-            <span id="outputcal"></span>
-            <p>Carbohydrates:</p>
-            <span id="outputc"></span>
-            <p>Protein:</p>
-            <span id="outputpro"></span>
-            <p>Fats:</p>
-            <span id="outputfat"></span>
-            <p>Sugar:</p>
-            <span id="outputsug"></span>
-        </div>
-        <form onsubmit="event.preventDefault();">
+        
+        <form id="fruitform" onsubmit="event.preventDefault();">
             <label for="fname">First Name *:</label>
             <input id="fname" name="firstname" required>
             <label for="lname">Last Name *:</label>
@@ -54,20 +42,31 @@
             <input id="phone" name="phone" type="tel" placeholder="(123)456-7890" required>
             <!-- <label for="business">Business Name *:</label>
             <input id="business" name="bizname" required> -->
-            <h2>Choose Fruit</h2>
+            <h2 id="choose">Choose Fruit</h2>
             <input type="checkbox" id="fruit1" name="fruit1">
             <label for="fruit1" class="f1"></label>
             <input type="checkbox" id="fruit2" name="fruit2">
             <label for="fruit2" class="f2"></label>
             <input type="checkbox" id="fruit3" name="fruit3">
             <label for="fruit3" class="f3"></label>
-
-            
-              <label for="message">Mixing Directions:</label>
-        <textarea id="message"></textarea>
+            <label for="message">Mixing Directions:</label>
+            <textarea id="message"></textarea>
         <input id="date" type="hidden" name="todaydate" />
         <input type="submit" value="Place Order" id="drinkCount" />
         </form>
+        <div id="outputbox">
+            <h2 id="nutfact">Nutritional Facts</h2>
+            <p>Calories:</p>
+            <span id="outputcal"></span>
+            <p>Carbohydrates:</p>
+            <span id="outputc"></span>
+            <p>Protein:</p>
+            <span id="outputpro"></span>
+            <p>Fats:</p>
+            <span id="outputfat"></span>
+            <p>Sugar:</p>
+            <span id="outputsug"></span>
+        </div>
     </main>
     <footer>
         <h1>Bountiful Foods</h1>

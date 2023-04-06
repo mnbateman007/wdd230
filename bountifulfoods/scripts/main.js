@@ -3,14 +3,7 @@
 //     document.querySelector("#hamburgerBtn").classList.toggle("open");
 // }
 
-// const burgerMenu = document.querySelector('#hamburgerBtn');
-// hamburgerBtn.addEventListener('click', () => {
-//     document.querySelector("#navView").classList.toggle("open");
-//     // here target your navbar and change a class, an attribute or whatever you want
-// })
-
-// const x = document.querySelector('#hamburgerBtn')
-// x.onclick = toggleMenu;
+// document.querySelector('#hamburgerBtn').addEventListener('click', toggleMenu);
 
 let date = new Date();
 let day = date.getDay();

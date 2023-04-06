@@ -51,6 +51,33 @@
         width: 60%;
     }
 
+    /*Fresh*/
+    #maincontent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* #outputbox{
+        display:none;
+    } */
+
+    #fruitform{
+        grid-column: 1/3;
+        padding-left: 40px;
+    }
+
+    /* #fruit1, #fruit2, #fruit3{
+        padding-top: 25px;
+    } */
+
+    #choose{
+        align-self: baseline;
+    }
+
+    #sidefruit{
+        grid-column: 1/4;
+        size:.5em;
+    }
     /*About Us page*/
 
     #aboutusContent{
